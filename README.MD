@@ -1,42 +1,46 @@
-# 🛒 E-Commerce Analytics Project (SQL + Power BI)
+# 📊 Power BI Dashboard – E-Commerce Analytics
 
-This is an end-to-end data analytics project built using MySQL and Power BI.
-
-The project covers:
-
-- Revenue Analysis
-- Customer Segmentation (RFM)
-- Product Performance
-- Customer Behavior Insights
+This folder contains the interactive Power BI dashboard and exported report.
 
 ---
 
-## 🔧 Tech Stack
+## 📂 Files Included
 
-- MySQL
-- Power BI
-- DAX
-- ODBC
+- ecommerce_dashboard.pbix → Full Power BI dashboard file
+- ecommerce_dashboard.pdf → Exported dashboard report
 
 ---
 
-## 📂 Project Structure
+## 📈 Dashboard Pages
 
-- SQL → Database schema, inserts, analytical queries
-- PowerBI → Dashboard file and report
+### 1️⃣ Executive Overview
+- Total Revenue
+- Total Orders
+- Monthly Revenue Trend
+- Revenue by Category
+- Top Products
+
+### 2️⃣ Customer Segmentation (RFM)
+- Customer Segments
+- Revenue by Segment
+- Scatter Analysis
+- Champions Revenue %
+
+### 3️⃣ Product Performance
+- Revenue by Category
+- Revenue vs Quantity
+- Top Performing Products
+
+### 4️⃣ Customer Behavior
+- Repeat Customer %
+- Order Frequency Distribution
+- Segment Contribution
 
 ---
 
-## 📊 Dashboard Highlights
+## 🧠 Insights Delivered
 
-- Executive Overview
-- RFM Customer Segmentation
-- Product & Category Performance
-- Customer Behavior Analysis
-
----
-
-For detailed documentation:
-
-- 📁 SQL Folder → See SQL/README.md
-- 📁 Power BI Folder → See PowerBI/README.md
+- 50% repeat customers
+- Revenue concentration in Lost segment
+- Q4 revenue growth pattern
+- Premium vs Volume product behavior
