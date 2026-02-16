@@ -1,46 +1,39 @@
-# 📊 Power BI Dashboard – E-Commerce Analytics
+# 📊 SQL Analysis – E-Commerce Project
 
-This folder contains the interactive Power BI dashboard and exported report.
+This folder contains all SQL scripts used for data modeling and analysis.
 
 ---
 
 ## 📂 Files Included
 
-- ecommerce_dashboard.pbix → Full Power BI dashboard file
-- ecommerce_dashboard.pdf → Exported dashboard report
+- schema.sql → Database table creation scripts
+- insert_data.sql → Data insertion scripts
+- analysis_queries.sql → Analytical queries
 
 ---
 
-## 📈 Dashboard Pages
+## 🔍 Analysis Performed
 
-### 1️⃣ Executive Overview
-- Total Revenue
-- Total Orders
+- Total Revenue Calculation
 - Monthly Revenue Trend
-- Revenue by Category
-- Top Products
-
-### 2️⃣ Customer Segmentation (RFM)
-- Customer Segments
-- Revenue by Segment
-- Scatter Analysis
-- Champions Revenue %
-
-### 3️⃣ Product Performance
-- Revenue by Category
-- Revenue vs Quantity
-- Top Performing Products
-
-### 4️⃣ Customer Behavior
-- Repeat Customer %
-- Order Frequency Distribution
-- Segment Contribution
+- Top 10 Products by Revenue
+- Customer Segmentation (RFM Logic)
+- Revenue Contribution Analysis
+- Window Functions & Ranking
+- CTE-based Aggregations
 
 ---
 
-## 🧠 Insights Delivered
+## 🧠 Key SQL Concepts Used
 
-- 50% repeat customers
-- Revenue concentration in Lost segment
-- Q4 revenue growth pattern
-- Premium vs Volume product behavior
+- GROUP BY
+- JOINs
+- CTEs
+- Window Functions
+- RANK()
+- SUM() OVER()
+- DATE functions
+
+---
+
+This SQL analysis forms the foundation for the Power BI dashboard.
